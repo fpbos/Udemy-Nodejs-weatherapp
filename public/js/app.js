@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
             messageTwo.textContent = ''
         } else {
             messageOne.textContent = data.foundLocation
-            messageTwo.textContent = data.body.summary + '. Het is op dit moment ' + data.body.temperature + ' graden. ' + data.body.dailysummary
+            messageTwo.textContent = data.body.summary + '. Het is op dit moment ' + data.body.temperature + ' graden. Er staat een wind van ' + data.body.windBearing + ' graden met een snelheid van ' + data.body.windSpeed + 'm/s. ' + data.body.dailysummary
         }
     })
 })

@@ -26,7 +26,7 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Homepage',
-        name: 'Fabian'
+        name: 'Fabian Bos'
     })
 })
 
@@ -73,14 +73,14 @@ app.get('/products', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Fabian'
+        name: 'Fabian Bos'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help page',
-        name: 'Fabian',
+        name: 'Fabian Bos',
         helpText: 'Check your wifi connextion.'
     })
 })
@@ -89,8 +89,7 @@ app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404 error',
         errorMessage: 'Help article not found.',
-        name: 'Fabian',
-
+        name: 'Fabian Bos',
     })
 })
 
@@ -98,7 +97,7 @@ app.get('*', (req, res) => {
     res.render('404', {
         title: '404 error',
         errorMessage: 'Page not found.',
-        name: 'Fabian',
+        name: 'Fabian Bos',
 
     })
 })

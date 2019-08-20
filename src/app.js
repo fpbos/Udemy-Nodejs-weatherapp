@@ -81,7 +81,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help page',
         name: 'Fabian',
-        helpText: 'Check your wifi connextion. TEXTTEXTTEXTTEXTT EXTTEXTTEXTTEX TTEXTTEXTTEXTT EXTTEXTTEXTTEXTT EXTTEXTTEXTTEXTTE XTTEXTTEXTTEXTTE XTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT'
+        helpText: 'Check your wifi connextion.'
     })
 })
 
